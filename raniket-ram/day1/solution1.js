@@ -5,7 +5,7 @@
  * @return {number}
  */
 var repeatedNTimes = function (nums) {
-
+  // Write your code here
 };
 
 

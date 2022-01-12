@@ -5,7 +5,7 @@
  * @return {number[][]}
  */
 var flipAndInvertImage = function (image) {
-  
+  // Write your code here
 };
 
 
