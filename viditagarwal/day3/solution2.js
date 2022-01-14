@@ -11,7 +11,7 @@ function solution(words) {
     for(let i=0;i<word.length;i++){//converts word to morse code , stores it in str
       str=str+arr[(word.charCodeAt(i)-97)];
     }
-    if(!dist.includes(str)){.//checks if combination already exists in array dist
+    if(!dist.includes(str)){//checks if combination already exists in array dist
       dist.push(str);
     }
     str="";//for next morse code
