@@ -36,9 +36,9 @@ class LinkedList<T>{
         if(this.size==0){
             console.log("List is empty");
         }
-        else if(this.size==1&&this.start1.value==value1){
-            this.start1=null;
-            thsi.size=0;
+        else if(this.start1.value==value1){
+            this.start1=this.start1.next;
+            this.size=this.size--;
         }
         else {
             let curr= this.start1;
